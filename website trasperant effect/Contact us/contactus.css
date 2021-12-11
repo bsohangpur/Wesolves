@@ -1,0 +1,84 @@
+form{
+    width: 30vw;
+    height: 60vh;
+    background: linear-gradient(0deg, #A1D3E5, #A1D3E5), linear-gradient(142.13deg, rgba(255, 255, 255, 0.58) 1.8%, rgba(255, 255, 255, 0.66) 99.75%);
+backdrop-filter: blur(130.056px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.label{
+    font-family: Prociono;
+font-style: normal;
+font-weight: normal;
+font-size: 1.5em;
+line-height: 15px;
+/* identical to box height, or 67% */
+
+z-index: 2;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+margin: 1rem;
+color: #000000;
+position: absolute;
+left: 4%;
+
+}
+
+.input{
+    width: 25vw;
+    height: 5vh;
+    background: linear-gradient(110.63deg, rgba(254, 248, 255, 0.22) 0.98%, rgba(254, 248, 255, 0.25) 95.65%, rgba(254, 248, 255, 0.25) 100%);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 10.9px 10.9px 27.49px rgba(255, 255, 255, 0.15);
+backdrop-filter: blur(87.96px);
+/* Note: backdrop-filter has minimal browser support */
+margin-top: 2.5rem;
+border-radius: 10px;
+}
+
+#input{
+    width: 25vw;
+    height: 10vh;
+}
+
+.button{
+    width: 10rem;
+    height: 3rem;
+    background: linear-gradient(110.63deg, rgba(254, 248, 255, 0.22) 0.98%, rgba(254, 248, 255, 0.25) 95.65%, rgba(254, 248, 255, 0.25) 100%);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 10.9px 10.9px 27.49px rgba(255, 255, 255, 0.15);
+backdrop-filter: blur(87.96px);
+/* Note: backdrop-filter has minimal browser support */
+margin: 1rem 0rem;
+border-radius: 15px;
+}
+
+#label1{
+    position: absolute;
+    top:0%;
+}
+#label2{
+    position: absolute;
+    top:19%;
+}
+#label3{
+    position: absolute;
+    top:37%;
+}
+#label4{
+    position: absolute;
+    top:55%;
+}
+.contact{
+    display: flex;
+    
+    justify-content: space-evenly;
+}
+.contact-image{
+    width: 25vw;
+    height: 30vh;
+}
+

@@ -1,0 +1,49 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height:auto;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    background-repeat: no-repeat;
+}
+
+.foot{
+    
+    background: linear-gradient(0deg, #006D9D, #006D9D), linear-gradient(142.13deg, rgba(254, 248, 255, 0.21) 1.8%, rgba(254, 248, 255, 0.00590628) 99.74%, rgba(254, 248, 255, 0) 99.75%);
+    backdrop-filter: blur(87.9609px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 5px;
+}
+
+.ibox{
+   
+    width: 300px;
+    height: 50px;
+    
+    background: linear-gradient(110.63deg, rgba(254, 248, 255, 0.22) 0.98%, rgba(254, 248, 255, 0.25) 95.65%, rgba(254, 248, 255, 0.25) 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 10.9px 10.9px 27.49px rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(87.96px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 10px;
+}
+.ibutton{
+   
+    width: 50px;
+    height: 50px;
+   
+    background: linear-gradient(0deg, #000000, #000000), linear-gradient(110.63deg, rgba(254, 248, 255, 0.22) 0.98%, rgba(254, 248, 255, 0.25) 95.65%, rgba(254, 248, 255, 0.25) 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15), inset 10.9px 10.9px 27.49px rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(87.96px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 0px 10px 10px 0px;
+}
+
+
+
+
+h5{
+    font-size: 1.2em;
+}

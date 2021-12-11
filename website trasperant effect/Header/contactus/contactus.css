@@ -1,0 +1,78 @@
+.contact-image{
+    width: 400px;
+    height: 300px;
+}
+.contact-head{
+    display: flex;
+    justify-content: center;
+}
+form{
+    width: 70%;
+    height: 100%;
+    background: linear-gradient(0deg, #A1D3E5, #A1D3E5), linear-gradient(142.13deg, rgba(255, 255, 255, 0.58) 1.8%, rgba(255, 255, 255, 0.66) 99.75%);
+backdrop-filter: blur(130.056px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 10px;
+padding-bottom: 1rem;
+}
+
+.label{
+    font-family: Prociono;
+font-style: normal;
+font-weight: normal;
+/* font-size: 150%; */
+line-height: 15px;
+/* identical to box height, or 67% */
+
+
+letter-spacing: 0.05em;
+text-transform: capitalize;
+margin: 1rem;
+color: #000000;
+
+
+}
+
+.input{
+    width: 80%;
+    height: 2em;
+    background: linear-gradient(110.63deg, rgba(254, 248, 255, 0.22) 0.98%, rgba(254, 248, 255, 0.25) 95.65%, rgba(254, 248, 255, 0.25) 100%);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 10.9px 10.9px 27.49px rgba(255, 255, 255, 0.15);
+backdrop-filter: blur(87.96px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 5px;
+}
+
+#input{
+    width: 80%;
+    height: 5em;
+}
+
+.button{
+    width: 10rem;
+    height: 3rem;
+    background: linear-gradient(110.63deg, rgba(254, 248, 255, 0.22) 0.98%, rgba(254, 248, 255, 0.25) 95.65%, rgba(254, 248, 255, 0.25) 100%);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 10.9px 10.9px 27.49px rgba(255, 255, 255, 0.15);
+backdrop-filter: blur(87.96px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 15px;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-heading, .contact-text{
+    text-align: center;
+}
+
+label{
+    width: 80%;
+    display: flex;
+    justify-content: left;
+}
+
+

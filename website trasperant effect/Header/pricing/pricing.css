@@ -1,0 +1,66 @@
+.pricing-list{
+    display: flex;
+    
+    justify-content: center;
+    margin-top: 2rem;
+}
+.price-heading{
+    text-align: center;
+}
+.pricing{
+    /* position: absolute;    */
+   width: 18rem;
+   height: 30rem;
+   /* left: 1.43%;
+   right: 1.43%;
+   top: 0%;
+   bottom: 0%; */
+   
+   background: linear-gradient(0deg, rgba(234, 7, 116, 0.25), rgba(234, 7, 116, 0.25)), linear-gradient(142.13deg, rgba(255, 255, 255, 0.58) 1.8%, rgba(255, 255, 255, 0.66) 99.75%);
+   backdrop-filter: blur(130px);
+   /* Note: backdrop-filter has minimal browser support */
+   /* display: flex;
+   flex-direction: column;
+   align-items: center; */
+   border-radius: 15px;
+   /* text-align: center; */
+   }
+   .bprice{
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        background: linear-gradient(0deg, #EA0774, #EA0774), linear-gradient(142.13deg, rgba(255, 255, 255, 0.58) 1.8%, rgba(255, 255, 255, 0.66) 99.75%);
+    backdrop-filter: blur(130.056px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 5px;
+    width: 20rem;
+    height: 3rem;
+   }
+   .plist{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+   }
+   li{
+       color: gray;
+   }
+   li span{
+       color: black;
+   }
+   .price{
+       
+       text-align: center;
+   }
+   .plan-image{
+      position: absolute;
+      right: 10%;
+   }
+#card1, #card3{
+    margin-top: 2rem;
+}
+  
+    
+
+    
+    
